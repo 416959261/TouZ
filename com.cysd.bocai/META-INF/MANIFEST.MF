@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bocai
+Bundle-SymbolicName: com.cysd.bocai; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.cysd.bocai.Activator
+Bundle-Vendor: CYSD
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/commons-io-2.1.jar,
+ lib/h2-1.4.181.jar,
+ .

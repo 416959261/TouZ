@@ -1,0 +1,69 @@
+06-23 17:51:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "QISHU" not found; SQL statement:
+insert into QiShu(qs_id,qs_num,daxiao_danshuang_peilv,num_peilv,kaijiang_num,total_da,total_xiao,total_dan,total_shuang,total_0,total_1,total_2,total_3,total_4,total_5,total_6,total_7,total_8,total_9,daxiao_choushui,danshuang_choushui,num_choushui,createdatetime) values('A5645E82A67E45259F3E931A9CD34C9D','null','0.0','0.0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0.0','0.0','0.0','null') [42102-181]
+06-23 17:57:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "QISHU" not found; SQL statement:
+insert into QiShu(qs_id,qs_num,daxiao_danshuang_peilv,num_peilv,kaijiang_num,total_da,total_xiao,total_dan,total_shuang,total_0,total_1,total_2,total_3,total_4,total_5,total_6,total_7,total_8,total_9,daxiao_choushui,danshuang_choushui,num_choushui,createdatetime) values('BD46C00D2B984B83A0ECC1F03B17EFC6','null','0.0','0.0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0.0','0.0','0.0','null') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "QISHU" not found; SQL statement:
+insert into QiShu(qs_id,qs_num,daxiao_danshuang_peilv,num_peilv,kaijiang_num,total_da,total_xiao,total_dan,total_shuang,total_0,total_1,total_2,total_3,total_4,total_5,total_6,total_7,total_8,total_9,daxiao_choushui,danshuang_choushui,num_choushui,createdatetime) values('1ED208C183BE47579E7C7C2C0E5BEF59','','0.92','8.0','6','11.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.99','0.0','0.0','2016-06-23 19:10:59') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('29C30A2228034CB3909A6B3F7462A403','1ED208C183BE47579E7C7C2C0E5BEF59','zhangsan','11.0','110.12','10.12','11.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('9E97908F366B467AA430F9FBC2137B63','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('BD90ED48CE9B4F92A81F42759BEE5512','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('DC632956D54C4EAB9E2CB09BE130671C','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('CA6B70F496BE4EE881869FA0E1D82C7F','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('F9B2FEB672BE4895AC05ABE34E596D34','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('7892B984AD85452A93ECA2CD87E6F46C','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('D89AD913C9F847A980DF185B7DF88A64','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('07BF6E5DFE07488C843497FCFE9C7EFA','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('537D6C3B664E4CC2A8FD6E161739EECD','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('4735CBD864274DAFA15B6A5DB0436940','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('03BAA32407784357AEBC47E95FC49CEC','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('FEDF016A64BE4F3C93184D21AF6EAA56','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('2FF2806EBA954186A19C0ECCD8F4AC7F','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('E730882F4CA849919C5DBE507DFCFE3F','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('5CD8BCCAD66143DB93D85422C2208396','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('CBDCA76BA09C4645874457D0E84CF8E2','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('E18A8D5CEBB34F9091029087AC8805FB','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('7C9EFDB07B334BDEB73EA19FA6242379','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]
+06-23 19:11:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUZHU" not found; SQL statement:
+insert into Touzhu(tz_id,qs_id,u_name,u_total_jine,u_shengyu_jine,u_zhongjiang_jine,tz_da_jine,tz_xiao_jine,tz_dan_jine,tz_shuang_jine,tz_0_jine,tz_1_jine,tz_2_jine,tz_3_jine,tz_4_jine,tz_5_jine,tz_6_jine,tz_7_jine,tz_8_jine,tz_9_jine) values('CABC66154C6A4F40B815E959EB0B326D','1ED208C183BE47579E7C7C2C0E5BEF59','','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0','0.0') [42102-181]

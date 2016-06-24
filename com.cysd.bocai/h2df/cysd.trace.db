@@ -1,0 +1,3 @@
+2016-06-23 19:21:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TOUSHU" not found; SQL statement:
+select * from toushu [42102-192]
